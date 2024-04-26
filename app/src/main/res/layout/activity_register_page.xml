@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterPage">
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/backshape"
+        app:srcCompat="@drawable/backk" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="Hello!Register to get\nstarted" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:background="@drawable/sha"
+        android:drawableRight="@drawable/baseline_person_24"
+        android:paddingRight="15dp"
+        android:hint="User Name"
+        />
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:paddingLeft="15dp"
+        android:background="@drawable/sha"
+        android:drawableRight="@drawable/baseline_phone_24"
+        android:paddingRight="15dp"
+        android:hint="Phone No."
+        />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:paddingLeft="15dp"
+        android:background="@drawable/sha"
+        android:hint="E-mail address"
+        android:drawablePadding="50dp"
+        android:paddingRight="15dp"
+        android:drawableRight="@drawable/baseline_email_24"
+        />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:hint="Password"
+        android:paddingRight="15dp"
+        android:background="@drawable/sha"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:drawableEnd="@drawable/baseline_key_24"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/signupbtn"
+        android:backgroundTint="@color/green"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"
+        android:text="Already have an account? Login Now" />
+
+
+</LinearLayout>
